@@ -1,0 +1,36 @@
+.color-title {
+  margin-top: 0.5rem;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.all {
+  background: linear-gradient(blue, crimson);
+}
+
+.sidebar-label-cont:hover input ~ .checkmark {
+  background-color: #333333;
+}
+
+.sidebar-label-cont input:checked ~ .checkmark {
+  background-color: hsl(207, 90%, 54%);
+  border: 2px solid black;
+}
+.sidebar-label-cont.checkmark::after {
+  content: none;
+  position: absolute;
+  display: none;
+}
+.sidebar-label-cont input:checked ~ .checkmark::after {
+  display: block;
+}
+.sidebar-label-cont .checkmark::after {
+  top: 6.4px;
+  left: 6.4px;
+  width: 7px;
+  height: 7px;
+  opacity: 1;
+  border-radius: 50%;
+  background: #333333;
+}

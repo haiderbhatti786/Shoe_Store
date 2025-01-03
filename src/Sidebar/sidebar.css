@@ -1,0 +1,32 @@
+.sidebar {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  border-right: 2px solid #333333;
+  z-index: 3;
+  overflow-y: scroll;
+  top: 15px;
+  padding: 2rem;
+  /* overflow-y: hidden; */
+}
+.sidebar-title1 {
+  display: inline-block;
+  font-size: 42px;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.logo-cont {
+  margin-bottom: 4rem;
+}
+.logo-cont h1 {
+  margin-top: 1.3rem;
+  border-radius: 20px;
+}
+.sidebar::-webkit-scrollbar {
+  background: transparent;
+  color: #333333;
+}

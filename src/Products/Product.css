@@ -1,0 +1,55 @@
+.card-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 10px;
+  z-index: -2;
+}
+.card {
+  margin: 20px;
+  width: 13vw;
+  height: 20vw;
+  box-shadow: 5px 5px -5px 15px rgba(0, 0, 0, 0.5);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 1rem;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card-image {
+  /* padding: 2px; */
+  width: 5vw;
+  margin-top: 1rem;
+  /* background-size: contain; */
+  /* margin-bottom: 1rem; */
+}
+.card-title {
+  margin-bottom: 1rem;
+}
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.rate-star {
+  color: #d5ab55;
+}
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+.card-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+.bag-icon {
+  color: #535353;
+  font-size: 1.5rem;
+}

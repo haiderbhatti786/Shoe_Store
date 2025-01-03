@@ -1,0 +1,112 @@
+/* 
+  Structure:
+  1. Navbar Container
+  2. Logo
+  3. Menu
+  4. Menu Items
+  5. Responsive Design
+*/
+
+/* Navbar Container */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 2%;
+  left: 24%;
+  width: 70%;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+/* Logo */
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Menu */
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+
+/* Menu Items */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.isActive:active {
+  color: purple;
+}
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar .a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+.nav-link:active {
+  color: purple;
+}
+.a:active {
+  color: purple;
+}
+
+/* Menu Icons */
+.navbar .menu i {
+  font-size: 1.5em;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar .menu i:hover {
+  color: #ccc;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  /* Navbar Container */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em;
+  }
+
+  /* Menu */
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Menu Items */
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Menu Icons */
+  .navbar .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu i {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}

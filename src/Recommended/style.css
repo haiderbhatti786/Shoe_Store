@@ -1,0 +1,33 @@
+.recmen {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* align-items: flex-start; */
+  margin-top: 7rem;
+  margin-left: 20rem;
+  gap: 10px;
+}
+.rec-title {
+  margin-left: 2rem;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.recbtns {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+
+  border: 0.6 solid #333333;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+
+.btns:hover {
+  background-color: white;
+}
